@@ -5,7 +5,7 @@ using VRTK;
 
 public class LightsaberController : VRTK_InteractableObject {
 
-    public override void StartUsing(GameObject usingObject)
+    public override void StartUsing(VRTK_InteractUse usingObject)
     {
         base.StartUsing(usingObject);
 
